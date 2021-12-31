@@ -1,0 +1,122 @@
+body {
+    display:flex;
+    place-items: center;
+    justify-content: center;
+    
+    
+}
+.content {
+    background: hsl(31, 76%, 84%);
+    min-width: 375px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.563rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+    margin-top: 15%;
+    
+}
+
+.seccion1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 3.438rem;
+}
+
+.seccion1 button{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsl(31, 77%, 52%);
+}
+
+.seccion1 button:hover{
+    border-color: hsl(31, 76%, 84%);
+    border-style: solid;
+    background: hsl(31, 77%, 52%);;
+    color: hsl(31, 76%, 84%);
+}
+
+.seccion2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 3.438rem;
+}
+
+.seccion2 button{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsl(184, 100%, 22%);
+}
+
+.seccion2 button:hover{
+    border-color: hsl(31, 76%, 84%);
+    border-style: solid;
+    background: hsl(184, 100%, 22%);
+    color: hsl(31, 76%, 84%);
+}
+.seccion3 {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 3.438rem;
+}
+
+.seccion3 button{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsl(179, 100%, 13%);
+}
+
+.seccion3 button:hover{
+    border-color: hsl(31, 76%, 84%);
+    border-style: solid;
+    background: hsl(179, 100%, 13%);
+    color: hsl(31, 76%, 84%);
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2rem;
+}
+
+button{
+    background: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    border-style: solid;
+    padding: 15px 32px;
+    border-radius: 10rem;
+    margin-top: 1.5rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 1190px){
+
+    .seccion1 {
+    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    
+}
+
+.seccion3 {
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    
+}
+}
